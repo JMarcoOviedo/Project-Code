@@ -1,0 +1,115 @@
+knitr::opts_chunk$set(
+error = FALSE,
+message = FALSE,
+warning = FALSE,
+echo = FALSE, # hide all R codes!!
+fig.width=5, fig.height=4,#set figure size
+fig.align='center',#center plot
+options(knitr.kable.NA = ''), #do not print NA in knitr table
+tidy = FALSE #add line breaks in R codes
+)
+CDI <- read.table("CDI.txt")
+library(knitr)
+X1 <- CDI$V5
+Y1 <- CDI$V8
+fit1 <- lm(Y1 ~ X1)
+coef = fit1$coefficients
+b0hat = coef[1]
+b1hat = coef[2]
+X2 <- CDI$V9
+Y2 <- CDI$V8
+fit2 <- lm(Y2 ~ X2)
+coef2 = fit2$coefficients
+b0hat2 = coef2[1]
+b1hat2 = coef2[2]
+X3 <- CDI$V16
+Y3 <- CDI$V8
+fit3 <- lm(Y3 ~ X3)
+coef3 = fit3$coefficients
+b0hat3 = coef3[1]
+b1hat3 = coef3[2]
+plot(X1,Y1, ylab = "Number of Active Physicians", xlab = "Total Population", main = "Total Population")
+abline(lm(Y1~X1), col = "red")
+plot(X2,Y2, ylab = "Number of Active Physicians", xlab = "Number of Hosptial Beds", main = "Number of Hospital Beds")
+abline(lm(Y2~X2), col = "Blue")
+plot(X3,Y3, ylab = "Number of Active Physicians", xlab = "Total Personal Income", main = "Total Personal Income")
+abline(lm(Y3~X3), col = "dark green")
+MSE1 = summary(fit1)$sigmaˆ2
+MSE2 = summary(fit2)$sigmaˆ2
+MSE3 = summary(fit3)$sigmaˆ2
+r1 = summary(fit1)$r.squared
+r2 = summary(fit2)$r.squared
+8
+r3 = summary(fit3)$r.squared
+CDI<-CDI #region 1
+W<-CDI$V17
+df2<-subset(CDI, W == 1)
+X<-df2$V12
+Y<-df2$V15
+fit.y=b0hat[1]+b1hat[1]*X
+fit<-lm(Y~X)
+coef=fit$coefficients
+b0hat=coef[1]
+b1hat=coef[2]
+MSE = summary(fit)$sigmaˆ2
+se.b1hat = sqrt(MSE/sum((X-mean(X))ˆ2))
+ts = qt(.95,101, lower.tail=TRUE) #t critical value
+kable(anova(fit))
+CDI<-CDI #region 2
+W<-CDI$V17
+df2<-subset(CDI, W == 2)
+X<-df2$V12
+Y<-df2$V15
+fit.y=b0hat[1]+b1hat[1]*X
+fit<-lm(Y~X)
+coef=fit$coefficients
+b0hat=coef[1]
+b1hat=coef[2]
+MSE = summary(fit)$sigmaˆ2
+se.b1hat = sqrt(MSE/sum((X-mean(X))ˆ2))
+ts = qt(.95,106, lower.tail=TRUE) #t critical value
+kable(anova(fit))
+CDI<-CDI #region 3
+W<-CDI$V17
+df2<-subset(CDI, W == 3)
+X<-df2$V12
+Y<-df2$V15
+fit.y=b0hat[1]+b1hat[1]*X
+fit<-lm(Y~X)
+coef=fit$coefficients
+b0hat=coef[1]
+b1hat=coef[2]
+MSE = summary(fit)$sigmaˆ2
+se.b1hat = sqrt(MSE/sum((X-mean(X))ˆ2))
+ts = qt(.95,150, lower.tail=TRUE) #t critical value
+kable(anova(fit))
+CDI<-CDI #region 4
+W<-CDI$V17
+df2<-subset(CDI, W == 4)
+X<-df2$V12
+Y<-df2$V15
+fit.y=b0hat[1]+b1hat[1]*X
+9
+fit<-lm(Y~X)
+coef=fit$coefficients
+b0hat=coef[1]
+b1hat=coef[2]
+MSE = summary(fit)$sigmaˆ2
+se.b1hat = sqrt(MSE/sum((X-mean(X))ˆ2))
+ts = qt(.95,75, lower.tail=TRUE) #t critical value
+kable(anova(fit))
+residuals = fit1$residuals
+plot(x = X1, y = residuals, ylab = "Residuals", xlab = "Total Population", main = "Total Population Residual")
+abline(h=0, col = "red")
+qqnorm(residuals, main = "Normal Q-Q Plot for Total Population")
+qqline(residuals, col="red")
+residuals2 = fit2$residuals
+plot(x = X2, y = residuals2, main = "Number of Hospital Beds", ylab = "Residuals", xlab = "Number of Hospital Beds")
+abline(h = 0, col = "blue")
+qqnorm(residuals2, main = "Normal Q-Q Plot for Number of Hospital Beds")
+qqline(residuals2, col="blue")
+residuals3 = fit3$residuals
+plot(x=X3, y = residuals3, ylab = "Residuals", xlab = "Total Personal Income for Population", main = "Total Personal Income for Population")
+abline(h = 0, col = "dark green")
+qqnorm(residuals3, main = "Normal Q-Q Plot for Total Personal Income of Population")
+qqline(residuals3, col="dark green")
