@@ -1,13 +1,4 @@
-knitr::opts_chunk$set(
-error = FALSE,
-message = FALSE,
-warning = FALSE,
-echo = FALSE, # hide all R codes!!
-fig.width=5, fig.height=4,#set figure size
-fig.align='center',#center plot
-options(knitr.kable.NA = ''), #do not print NA in knitr table
-tidy = FALSE #add line breaks in R codes
-)
+
 CDI <- read.table("CDI.txt")
 library(knitr)
 X1 <- CDI$V5
