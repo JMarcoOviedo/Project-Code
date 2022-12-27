@@ -12,5 +12,5 @@
 
 
 ![](https://github.com/JMarcoOviedo/Project-Code/blob/main/images/Bank1.png)  
-<img src="https://github.com/JMarcoOviedo/Project-Code/blob/main/images/Bank1.png" width="200" height="400" />
+<img src="https://github.com/JMarcoOviedo/Project-Code/blob/main/images/Bank1.png" width="250" height="250" />
 ![](https://github.com/JMarcoOviedo/Project-Code/blob/main/images/Bank3.png)
