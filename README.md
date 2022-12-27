@@ -1,3 +1,5 @@
 # Jean Oviedo Portfolio 
 
-# Bank Customer Churn Rate Prediction
+
+
+# Project 1: Bank Customer Churn Rate Prediction
