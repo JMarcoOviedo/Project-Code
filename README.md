@@ -11,6 +11,5 @@
 * Created a confusion matrix to visualize the accuracy of the model 
 
 <img src="https://github.com/JMarcoOviedo/Project-Code/blob/main/images/Bank1.png" width="300" height="300" />
-<img src="https://github.com/JMarcoOviedo/Project-Code/blob/main/images/Bank2.png" width="300" height="300" />
 <img src="https://github.com/JMarcoOviedo/Project-Code/blob/main/images/Bank3.png" width="300" height="300" />
 
