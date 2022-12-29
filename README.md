@@ -26,19 +26,19 @@ I was able to get the model to 84% accuracy after constructing the CNN which may
 <img src="https://github.com/JMarcoOviedo/Project-Code/blob/main/images/Cnn2.png" width="300" height="300" />
 
 
-# Statistical Reports
+# Group Project Statistical Reports
 
 # [Regression Report of County Demographic Information for 440 Counties in the United States](https://github.com/JMarcoOviedo/Project-Code/blob/main/Project%20Reports/County%20Pop%20Regression.pdf)
-Created multiple regression models in R comparing active physicians to separate variables such as population or personal income
-Measured linear association of regression models
-Created residual and normality plots in R
+* Created multiple regression models in R comparing active physicians to separate variables such as population or personal income
+* Measured linear association of regression models
+* Created residual and normality plots in R
 
-Statistical Report to Determine Which Diet Provided the Most Weight Lost
-Created a visual representation of the data set
-Performed multiple tests to ensure ANOVA assumptions weren’t violated
-Performed an F-Test and created Confidence Intervals to determine if the diets were significantly different from each other
+# [Statistical Report to Determine Which Diet Provided the Most Weight Lost](https://github.com/JMarcoOviedo/Project-Code/blob/main/Project%20Reports/Diet%20Comparison.pdf)
+* Created a visual representation of the data set
+* Performed multiple tests to ensure ANOVA assumptions weren’t violated
+* Performed an F-Test and created Confidence Intervals to determine if the diets were significantly different from each other
 
-Non-parametric Statistical Report Comparing Pain Relief for two Drugs
-Created a visual representation of the data set
-Performed a Mann-Whitney test and created a Shift Parameter Confidence Interval since outliers were present and the distribution was skewed.
+[Non-parametric Statistical Report Comparing Pain Relief for two Drugs](https://github.com/JMarcoOviedo/Project-Code/blob/main/Project%20Reports/Pain%20Relief%20Comparaison%20.pdf)
+* Created a visual representation of the data set
+* Performed a Mann-Whitney test and created a Shift Parameter Confidence Interval since outliers were present and the distribution was skewed.
 
