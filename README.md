@@ -38,7 +38,7 @@ I was able to get the model to 84% accuracy after constructing the CNN which may
 * Performed multiple tests to ensure ANOVA assumptions weren’t violated
 * Performed an F-Test and created Confidence Intervals to determine if the diets were significantly different from each other
 
-[Non-parametric Statistical Report Comparing Pain Relief for two Drugs](https://github.com/JMarcoOviedo/Project-Code/blob/main/Project%20Reports/Pain%20Relief%20Comparaison%20.pdf)
+# [Non-parametric Statistical Report Comparing Pain Relief for two Drugs](https://github.com/JMarcoOviedo/Project-Code/blob/main/Project%20Reports/Pain%20Relief%20Comparaison%20.pdf)
 * Created a visual representation of the data set
 * Performed a Mann-Whitney test and created a Shift Parameter Confidence Interval since outliers were present and the distribution was skewed.
 
