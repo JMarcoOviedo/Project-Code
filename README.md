@@ -10,6 +10,6 @@
 * Trained the Artificial Neural Network with two hidden layers using the rectifier and sigmoid activation function 
 * Created a confusion matrix to visualize the accuracy of the model 
 
-<img src="https://github.com/JMarcoOviedo/Project-Code/blob/main/images/Bank4.png" width="300" height="300" />
+<img src="https://github.com/JMarcoOviedo/Project-Code/blob/main/images/Bank4.png" width="350" height="350" />
 <img src="https://github.com/JMarcoOviedo/Project-Code/blob/main/images/Bank3.png" width="300" height="300" />
 
