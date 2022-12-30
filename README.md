@@ -16,7 +16,8 @@ Python Version: 3.9 Packages: Pandas, NumPy, Matplotlib, Seaborn, Sklearn, Tenso
 
 # [Project 2: Dog and Cat Image Classifier](https://github.com/JMarcoOviedo/Dog_and_Cat_Image_Classifier)
 
-Data Science Project using Deep Learning for Image Classification
+Data Science Project using Deep Learning for Image Classification.
+
 Python Version: 3.9 Packages: NumPy, Matplotlib, TensorFlow, Keras, Seaborn
 
 For this project, I built a Convolution Neural Network to identify whether an image was of a dog or a cat. This could be useful if Animal Control Services need to identify what kind of animal they would be dealing with. This would be more beneficial for security camera footage that may not have as high of a resolution as phone cameras. 
