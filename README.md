@@ -56,3 +56,8 @@ Python Version: 3.9 Packages: Pandas, NumPy, Matplotlib, Seaborn, Sklearn, Plotl
 * Created a visual representation of the data set
 * Performed a Mann-Whitney test and created a Shift Parameter Confidence Interval since outliers were present and the distribution was skewed.
 
+
+# [Analysis of Health Data Associated with Heart Failure using Supervised and Unsupervised Methods](https://github.com/JMarcoOviedo/Project-Code/blob/main/Project%20Reports/Heart%20Analysis.pdf)
+* Built a logistic regression model to predict fatality for patients diagnosed with heart failure 
+* Used K-means Clustering and Principle Component Analysis to see if groups or other distinctions formed within the data
+
