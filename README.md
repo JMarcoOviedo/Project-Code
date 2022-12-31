@@ -35,6 +35,10 @@ Python Version: 3.9 Packages: Pandas, NumPy, Matplotlib, Seaborn, Sklearn, Plotl
 * Created a hierarchical clustering map
 * Created K-means clusters to discover patterns within the countries 
 
+<img src="https://github.com/JMarcoOviedo/Project-Code/blob/main/images/country1.png" width="300" height="300" />
+<img src="https://github.com/JMarcoOviedo/Project-Code/blob/main/images/country2.png" width="300" height="300" />
+
+
 # Group Project Statistical Reports
 
 # [Regression Report of County Demographic Information for 440 Counties in the United States](https://github.com/JMarcoOviedo/Project-Code/blob/main/Project%20Reports/County%20Pop%20Regression.pdf)
