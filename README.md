@@ -37,6 +37,7 @@ Python Version: 3.9 Packages: Pandas, NumPy, Matplotlib, Seaborn, Sklearn, Plotl
 
 <img src="https://github.com/JMarcoOviedo/Project-Code/blob/main/images/country1.png" width="350" height="350" />
 <img src="https://github.com/JMarcoOviedo/Project-Code/blob/main/images/country2.png" width="550" height="350" />
+<img src="https://github.com/JMarcoOviedo/Project-Code/blob/main/images/newplot%20(1).png" width="550" height="350" />
 
 
 # Group Project Statistical Reports
