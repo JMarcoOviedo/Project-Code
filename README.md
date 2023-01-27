@@ -40,7 +40,7 @@ Python Version: 3.9 Packages: Pandas, NumPy, Matplotlib, Seaborn, Sklearn, Plotl
 <img src="https://github.com/JMarcoOviedo/Project-Code/blob/main/images/newplot%20(1).png" width="550" height="350" />
 
 
-# Group Project Statistical Reports
+# Group Projects (Statistical Reports)
 
 # [Regression Report of County Demographic Information for 440 Counties in the United States](https://github.com/JMarcoOviedo/Project-Code/blob/main/Project%20Reports/County%20Pop%20Regression.pdf)
 * Created multiple regression models in R comparing active physicians to separate variables such as population or personal income
